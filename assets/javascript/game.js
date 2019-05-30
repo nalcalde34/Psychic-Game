@@ -11,6 +11,7 @@ var computerChoice = alphabet[Math.floor(Math.random() * alphabet.length)];
 
 console.log(computerChoice);
 
+
 document.onkeypress = function(event) {
 
     var userGuess = event.key;
